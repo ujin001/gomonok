@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "865ce4d9e6c2c445e707b268f070dd3f",
+    "hash": "9de012be3ce63eae1060e02db897051b",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -275,6 +275,67 @@
             "time": "2015-03-06 05:21:16"
         },
         {
+            "name": "clevertech/yii-booster",
+            "version": "v4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clevertech/YiiBooster.git",
+                "reference": "e0f9f68cfab70a4d7663f2857159dfeda4e15433"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clevertech/YiiBooster/zipball/e0f9f68cfab70a4d7663f2857159dfeda4e15433",
+                "reference": "e0f9f68cfab70a4d7663f2857159dfeda4e15433",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "ardem/yii-coding-standard": "dev-master",
+                "mayflower/php-codebrowser": "1.*",
+                "ncuesta/pinocchio": "dev-master",
+                "phploc/phploc": "2.*",
+                "phpunit/phpunit": "3.7.*",
+                "sebastian/phpcpd": "2.*",
+                "squizlabs/php_codesniffer": "1.*",
+                "yiisoft/yii": "1.1.14"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "amigo.cobos@gmail.com",
+                    "homepage": "http://www.ramirezcobos.com",
+                    "role": "Founder and development"
+                },
+                {
+                    "name": "Saphronov Mark",
+                    "email": "hijarian@gmail.com",
+                    "homepage": "http://about.me/hijarian"
+                },
+                {
+                    "name": "Ruslan Fadeev"
+                },
+                {
+                    "name": "Amr Bedair",
+                    "email": "amr.bedair@gmail.com",
+                    "homepage": "http://amr.nefya.com"
+                }
+            ],
+            "description": "Widget toolkit for Yii framework",
+            "homepage": "http://yiibooster.clevertech.biz/",
+            "keywords": [
+                "bootstrap",
+                "yii"
+            ],
+            "time": "2014-06-06 19:38:18"
+        },
+        {
             "name": "ezyang/htmlpurifier",
             "version": "v4.6.0",
             "source": {
@@ -317,6 +378,57 @@
                 "html"
             ],
             "time": "2013-11-30 08:25:19"
+        },
+        {
+            "name": "robregonm/yii2-auth",
+            "version": "0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robregonm/yii2-auth.git",
+                "reference": "8a0ee04f3322824de9f22d18098eddbe8f6fa6ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robregonm/yii2-auth/zipball/8a0ee04f3322824de9f22d18098eddbe8f6fa6ae",
+                "reference": "8a0ee04f3322824de9f22d18098eddbe8f6fa6ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*",
+                "yiisoft/yii2-composer": "*",
+                "yiisoft/yii2-swiftmailer": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "auth\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "robregonm",
+                    "email": "robregonm@gmail.com",
+                    "homepage": "http://obregon.co",
+                    "role": "Author"
+                }
+            ],
+            "description": "Yii 2 User Authentication & Role Based Access Control (RBAC) Module",
+            "keywords": [
+                "Authentication",
+                "access",
+                "auth",
+                "rbac",
+                "user",
+                "yii",
+                "yii2"
+            ],
+            "time": "2015-01-09 15:21:47"
         },
         {
             "name": "swiftmailer/swiftmailer",
